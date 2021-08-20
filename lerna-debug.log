@@ -1,0 +1,21 @@
+0 silly argv {
+0 silly argv   _: [ 'import' ],
+0 silly argv   lernaVersion: '4.0.0',
+0 silly argv   '$0': 'C:\\Users\\Public\\nodejs\\node_modules\\lerna\\cli.js',
+0 silly argv   dir: '../'
+0 silly argv }
+1 notice cli v4.0.0
+2 verbose rootPath C:\Users\张雷\Desktop\umi\lerna-demo
+3 error Error: Cannot find module 'C:\Users\张雷\Desktop\umi\lerna-demo\packages\package.json'
+3 error Require stack:
+3 error - C:\Users\张雷\Desktop\umi\lerna-demo\node_modules\@lerna\import\index.js
+3 error - C:\Users\张雷\Desktop\umi\lerna-demo\node_modules\@lerna\import\command.js
+3 error - C:\Users\张雷\Desktop\umi\lerna-demo\node_modules\lerna\index.js
+3 error - C:\Users\张雷\Desktop\umi\lerna-demo\node_modules\lerna\cli.js
+3 error - C:\Users\Public\nvm\v12.13.0\node_modules\lerna\node_modules\import-local\index.js
+3 error - C:\Users\Public\nvm\v12.13.0\node_modules\lerna\cli.js
+3 error     at Function.Module._resolveFilename (internal/modules/cjs/loader.js:794:15)
+3 error     at Function.Module._load (internal/modules/cjs/loader.js:687:27)
+3 error     at Module.require (internal/modules/cjs/loader.js:849:19)
+3 error     at require (internal/modules/cjs/helpers.js:74:18)
+3 error     at ImportCommand.initialize (C:\Users\张雷\Desktop\umi\lerna-demo\node_modules\@lerna\import\index.js:57:25)
